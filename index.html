@@ -8,8 +8,20 @@
     <title>Vue Hello</title>
 </head>
 <body>
-    
 
+
+    <div id="app">
+
+        <input id="text" type="text" v-model="message" placeholder="Scrivi qualcosa da dire al mondo">
+        
+        <div class="container">
+            <h1>{{ message }}</h1>
+        </div>
+        
+
+    </div>
+    
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
